@@ -6,8 +6,10 @@ To install in a web server, execute this command:
 And the server should have the next structure:
 
 Web server
+/*
 |-- static_assets/
 |
 |--index.html
 |--indes.bundle.js
 |--client.bundle.js
+*/
