@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node index.html"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle": "node node_modules/react-vr/scripts/bundle.js",
+    "devtools": "react-devtools",
+    "test": "jest"
   },
   "dependencies": {
     "npm-install-peers": "^1.2.1",
